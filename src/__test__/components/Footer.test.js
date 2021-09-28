@@ -3,8 +3,12 @@ import { mount } from 'enzyme';
 import Footer from '../../components/Footer';
 
 describe('<Footer />', () => {
+  const footer = mount(<Footer />);
   test('Render Footer component', () => {
-    const footer = mount(<Footer />);
     expect(footer.length).toEqual(1);
+  });
+
+  test('Render Title', () => {
+    expect(footer.find('.Footer-title').text()).toEqual('Platzi Store');
   });
 });
