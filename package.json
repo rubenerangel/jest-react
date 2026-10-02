@@ -61,7 +61,7 @@
     "prettier": "^1.19.1",
     "react-test-renderer": "^17.0.2",
     "webpack": "^4.0.0",
-    "webpack-dev-server": "^4.3.0"
+    "webpack-dev-server": "^6.0.0"
   },
   "bugs": {
     "url": "https://github.com/rubenerangel/jest-react/issues"
